@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BDBDBD">
+
+
+
+    <ImageView
+        android:id="@+id/slika2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:orientation="vertical"
+        android:src="@drawable/sumarice"/>
+
+
+    <TextView
+        android:id="@+id/naslov2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Naslov..."/>
+    <TextView
+        android:id="@+id/opis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:text="Opis..."/>
+
+    <Button
+        android:id="@+id/rez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/cardview_dark_background"
+        android:textColor="#FFFFFF"
+        android:text="Rezervisi ponudu" />
+
+
+</LinearLayout>
